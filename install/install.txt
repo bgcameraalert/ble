@@ -1,0 +1,10 @@
+cd ../tools/
+tar xjf ../install/gcc-arm-none-eabi-6-2017-q2-update-linux.tar.bz2
+chmod -R -w ~/BLE/tools/gcc-arm-none-eabi-6-2017-q2-update
+
+tar -xzf JLink_Linux_V622d_x86_64.tgz -C ~/BLE/tools/
+
+cd install
+unzip nRF51_SDK_10.0.0_dc26b5e.zip -d ~/BLE/tools/nRF51_SDK
+
+
